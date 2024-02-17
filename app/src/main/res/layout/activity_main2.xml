@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF9800">
+
+  <TextView
+      android:id="@+id/textViewTitle"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentTop="true"
+      android:layout_alignParentEnd="true"
+      android:layout_marginStart="37dp"
+      android:layout_marginTop="88dp"
+      android:layout_marginEnd="45dp"
+      android:background="#00BCD4"
+      android:text="CALCULADORAMAX"
+      android:textSize="36sp" />
+
+  <TextView
+      android:id="@+id/textViewDescription"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="30dp"
+      android:layout_marginEnd="29dp"
+      android:layout_marginBottom="146dp"
+      android:text="La CalculadoraMax es una aplicación que te permite realizar operaciones matemáticas básicas como suma, resta, multiplicación y división. También cuenta con funciones avanzadas como el cálculo de factorial y fibonachi. Es una herramienta útil para realizar cálculos rápidos y precisos en cualquier momento y lugar."
+      android:textSize="26sp" />
+
+  <Button
+      android:id="@+id/buttonBack"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="59dp"
+      android:layout_marginEnd="264dp"
+      android:layout_marginBottom="71dp"
+      android:text="Atrás" />
+
+  <Button
+      android:id="@+id/buttonNext"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignParentStart="true"
+      android:layout_alignParentEnd="true"
+      android:layout_alignParentBottom="true"
+      android:layout_marginStart="262dp"
+      android:layout_marginEnd="40dp"
+      android:layout_marginBottom="73dp"
+      android:text="Siguiente" />
+
+</RelativeLayout>

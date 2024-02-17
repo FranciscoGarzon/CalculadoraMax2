@@ -1,6 +1,8 @@
 package com.example.calculadoramax;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -44,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
         Button btnEquals = findViewById(R.id.btnEquals);
         Button btnFactorial = findViewById(R.id.btnFactorial);
         Button btnFibonacci = findViewById(R.id.btnFibonacci);
+        Button btnback = findViewById(R.id.backButton);
 
         btn0.setOnClickListener(v -> appendNumber("0"));
         btn1.setOnClickListener(v -> appendNumber("1"));
@@ -64,6 +67,13 @@ public class MainActivity extends AppCompatActivity {
         btnEquals.setOnClickListener(v -> evaluateExpression());
         btnFactorial.setOnClickListener(v -> calculateFactorial());
         btnFibonacci.setOnClickListener(v -> calculateFibonacci());
+        btnback.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navegar de vuelta al MainActivity
+                startActivity(new Intent(MainActivity.this, MainActivity3.class));
+            }
+        });
     }
 
     private void appendNumber(String number) {
