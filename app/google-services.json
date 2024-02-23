@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "48237679615",
-    "project_id": "calculadora-max",
-    "storage_bucket": "calculadora-max.appspot.com"
+    "project_number": "291770758218",
+    "project_id": "calculadora-max-24c13",
+    "storage_bucket": "calculadora-max-24c13.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:48237679615:android:65d9893a274d7bddf24dca",
+        "mobilesdk_app_id": "1:291770758218:android:1f68b14567c75731afe2b3",
         "android_client_info": {
           "package_name": "com.example.calculadoramax"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDq6szA5fPVsNuyYjWHeBmUPX9u4GRL2CA"
+          "current_key": "AIzaSyDPznymhe-CJ8GCt9e0h_4xqrAghs6UMZ0"
         }
       ],
       "services": {
